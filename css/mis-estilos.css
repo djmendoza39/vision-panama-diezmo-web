@@ -22,6 +22,10 @@ img{
     object-fit: cover;
 }
 
+.estilos-font-weigth h3{
+    font-weight: 100;
+}
+
 
 
 /* estilos header */
