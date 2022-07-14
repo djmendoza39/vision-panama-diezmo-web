@@ -1,364 +1,670 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto web iglesia adventista</title>
-    <link rel="stylesheet" href="css/mis-estilos.css">
+    <link rel="stylesheet" href="css/mis-estilos.css" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-</head>
-<body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <div class="container-logo-menu">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12">
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid">
-                                <figure class="figure--logo text-center">
-                                    <img class="img-fluid" src="img/logo-iadsd.png" alt="logo adventista">
-                                </figure>
-                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      About
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="#">Vision + Mission</a></li>
-                                      <li><a class="dropdown-item" href="#">Leadership</a></li>
-                                      <li><hr class="dropdown-divider"></li>
-                                      <li><a class="dropdown-item" href="#">Beliefs</a></li>
-                                    </ul>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Saturday
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="#">Onsite</a></li>
-                                      <li><a class="dropdown-item" href="#">Online</a></li>
-                                      <li><hr class="dropdown-divider"></li>
-                                      <li><a class="dropdown-item" href="#">Sermons</a></li>
-                                    </ul>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Families
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="#">Parents</a></li>
-                                      <li><a class="dropdown-item" href="#">Toddler + Pre-K</a></li>
-                                      <li><a class="dropdown-item" href="#">Elementary</a></li>
-                                      <li><a class="dropdown-item" href="#">Middle school</a></li>
-                                      <li><a class="dropdown-item" href="#">High School</a></li>
-                                    </ul>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Groups
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="#">Onsite</a></li>
-                                      <li><a class="dropdown-item" href="#">Join a Group</a></li>
-                                      
-                                    </ul>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Serve
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="#">The church</a></li>
-                                      <li><a class="dropdown-item" href="#">The City + Serve Day</a></li>
-                                
-                                      <li><a class="dropdown-item" href="#">The World</a></li>
-                                    </ul>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Give
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="#">Why</a></li>
-                                      <li><a class="dropdown-item" href="#">Online</a></li>
-                                
-                                      <li><a class="dropdown-item" href="#">Crypto</a></li>
-                                      <li><a class="dropdown-item" href="#">Onsite</a></li>
-                                      <li><a class="dropdown-item" href="#">Cripto</a></li>
-                                      <li><a class="dropdown-item" href="#">Employer Matching</a></li>
-                                      <li><a class="dropdown-item" href="#">Amazon Smile</a></li>
-                                    </ul>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Extras
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="#">Books + Podcasts</a></li>
-                                      <li><a class="dropdown-item" href="#">Jobs + internships</a></li>
-                                    </ul>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Plan a Visit</a>
-                                  </li>
-                          
-                                  
-                                </ul>
-                              </div>
-                            </div>
-                        </nav>
+      <div class="container-logo-menu">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <figure class="figure--logo text-center">
+                    <img
+                      class="img-fluid"
+                      src="img/logo-iadsd.png"
+                      alt="logo adventista"
+                    />
+                  </figure>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle text-light"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          About
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Vision + Mission</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Leadership</a>
+                          </li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li><a class="dropdown-item" href="#">Beliefs</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle text-light"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Saturday
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Onsite</a></li>
+                          <li><a class="dropdown-item" href="#">Online</a></li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li><a class="dropdown-item" href="#">Sermons</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle text-light"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Families
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Parents</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Toddler + Pre-K</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Elementary</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Middle school</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">High School</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle text-light"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Groups
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Onsite</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Join a Group</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle text-light"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Serve
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">The church</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >The City + Serve Day</a
+                            >
+                          </li>
 
-                    </div>
-                    <div class="col-12 text-center">
-                        <div class="container-titulo h-100 align-items-center">
-                            <h1 class="estilo-titulo text-light text-uppercase">asociación adventista <br> 
-                                panamá </h1>
+                          <li>
+                            <a class="dropdown-item" href="#">The World</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle text-light"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Give
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Why</a></li>
+                          <li><a class="dropdown-item" href="#">Online</a></li>
 
-                        </div>
-
-                    </div>
+                          <li><a class="dropdown-item" href="#">Crypto</a></li>
+                          <li><a class="dropdown-item" href="#">Onsite</a></li>
+                          <li><a class="dropdown-item" href="#">Cripto</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Employer Matching</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Amazon Smile</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle text-light"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Extras
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Books + Podcasts</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Jobs + internships</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Plan a Visit</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                
-                
+              </nav>
             </div>
+            <div class="col-12 text-center">
+              <div class="container-titulo h-100 align-items-center">
+                <h1 class="estilo-titulo text-light text-uppercase">
+                  asociación adventista <br />
+                  panamá
+                </h1>
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
     </header>
     <main>
-        <!-- seccion live stream -->
-        <section class="seccion-live-stream py-5">
-            <div class="text-center py-4">
-                <h2>Live Stream</h2>
-                <small>Watch On-Demand </small> 
-            </div>
-            <div class="container">
-                <iframe class="video--estilos" src="https://www.youtube.com/embed/vxPDYTdDz24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </section>
-        <!-- / -->
-
-        <!-- seccion abouts -->
-        <section class="seccion-about">
-            <div class="container-grid">
-                <h2 class=" text-about text-light">ABOUT US</h2>
-                <small class="text-vision-mision text-light">VISION + MISSION</small>
-            </div>
-        </section>
-        <div class="container py-5">
-            <div class="row text-center py-5">
-                <div class="col-12">
-                    <h3>VISION</h3>
-                    <p>Our vision is a Los Angeles where every person has experienced the life changing power of the gospel.</p>
-                </div>
-                <div class="col-12">
-                    <h3>MISSION</h3>
-                    <p>Our mission is to help the people of Los Angeles know Jesus, grow in faith, and go into the world equipped to serve.</p>
-                </div>
-            </div>
+      <!-- seccion live stream -->
+      <section class="seccion-live-stream py-5">
+        <div class="text-center py-4">
+          <h2>Live Stream</h2>
+          <small>Watch On-Demand </small>
         </div>
-        <!-- / -->
+        <div class="container">
+          <iframe
+            class="video--estilos"
+            src="https://www.youtube.com/embed/vxPDYTdDz24"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!-- / -->
 
+      <!-- seccion abouts -->
+      <section class="seccion-about">
+        <div class="container-grid">
+          <h2 class="text-about text-light">ABOUT US</h2>
+          <small class="text-vision-mision text-light">VISION + MISSION</small>
+        </div>
+      </section>
+      <div class="container py-5">
+        <div class="row text-center py-5">
+          <div class="col-12">
+            <h3>VISION</h3>
+            <p>
+              Our vision is a Los Angeles where every person has experienced the
+              life changing power of the gospel.
+            </p>
+          </div>
+          <div class="col-12">
+            <h3>MISSION</h3>
+            <p>
+              Our mission is to help the people of Los Angeles know Jesus, grow
+              in faith, and go into the world equipped to serve.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- / -->
 
-        <!-- seccion abouts -->
-          <section class="seccion-about">
-          <div class="container-grid">
-              <h2 class=" text-about text-light">ABOUT US</h2>
-              <small class="text-vision-mision text-light">LEADERSHIP</small>
-          </div>
-          </section>
-          <div class="container py-5">
-          <h3 class="text-center">STAFF</h3>
-          <div class="row text-center py-5">
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card estilo-card-border">
-                  <img src="img/img1-staff.jpg" class="card-img-top rounded-circle" alt="...">
-                  <div class="card-body">
-                    <h3>Trevor DeBenning</h3>
-                    <p class="card-text">Lead Pastor</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card estilo-card-border">
-                  <img src="img/img2-staff.jpg" class="card-img-top rounded-circle" alt="...">
-                  <div class="card-body">
-                    <h3>Timothy Jang</h3>
-                    <p class="card-text">Pastor</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card estilo-card-border">
-                  <img src="img/img3-staff.jpg" class="card-img-top rounded-circle" alt="...">
-                  <div class="card-body">
-                    <h3>Jens Madsen</h3>
-                    <p class="card-text">Music/Tech</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card estilo-card-border">
-                  <img src="img/img4-staff.jpg" class="card-img-top rounded-circle" alt="...">
-                  <div class="card-body">
-                    <h3>John Austin Helm</h3>
-                    <p class="card-text">Operations</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          </div>
-        <!-- / -->
-
-        <!-- seccion beliefs -->
-        <section class="seccion-about">
-          <div class="container-grid">
-              <h2 class=" text-about text-light">BELIEFS</h2>
-              <small class="text-vision-mision text-light">OUR APPROACH</small>
-          </div>
-        </section>
-          <div class="container py-5">
-            <div class="row estilos-font-weigth text-center py-5">
-              <div class="col-12">
-                <h3>WE SEEK UNITY IN ESSENTIAL BELIEFS</h3>
-                <article>
-                  <h4 class="py-2">EPHESIANS 4:2-6</h4>
-                  <p>"Be completely humble and gentle; be patient, bearing with one another in love. Make every effort to keep the unity of the Spirit through the bond of peace. There is one body and one Spirit - just as you were called - one hope, one Lord, one faith, one baptism; one God and Father of all, who is over all and through all and in all."</p>
-                </article>
-              </div>
-              <div class="col-12 pt-5">
-                <h3>WE VALUE LIBERTY IN NON-ESSENTIAL BELIEFS</h3>
-                <article>
-                  <h4 class="py-2">1 TIMOTHY 1:5</h4>
-                  <p>"Accept him whose faith is weak, without passing judgement on disputable matters. Who are you to judge someone else's servant? To his own master he stands or falls. and he will stand, for the Lord is able to make him stand.</p>
-                  <p>One man considers one day more sacred than another; another man considers every day alike. Each one should be fully convinced in his own mind. So then, each of us will give an account of himself to God."</p>
-                </article>
-              </div>
-              <div class="col-12 pt-5">
-                <h3>WE PURSUE LOVE IN ALL THINGS</h3>
-                <article>
-                  <h4 class="py-2">JOHN 13:34-35</h4>
-                  <p>"A new command I give you: Love one another. As I have loved you, so you must love one another. By this all men will know that you are my disciples, if you love one another."</p>
-                </article>
+      <!-- seccion abouts -->
+      <section class="seccion-about">
+        <div class="container-grid">
+          <h2 class="text-about text-light">ABOUT US</h2>
+          <small class="text-vision-mision text-light">LEADERSHIP</small>
+        </div>
+      </section>
+      <div class="container py-5">
+        <h3 class="text-center">STAFF</h3>
+        <div class="row text-center py-5">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card estilo-card-border">
+              <img
+                src="img/img1-staff.jpg"
+                class="card-img-top rounded-circle"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3>Trevor DeBenning</h3>
+                <p class="card-text">Lead Pastor</p>
               </div>
             </div>
           </div>
-        <!-- / -->
-
-        <!-- seccion beliefs-essential -->
-        <section class="seccion-about">
-          <div class="container-grid">
-              <h2 class=" text-about text-light">BELIEFS</h2>
-              <small class="text-vision-mision text-light">ESSENTIAL BELIEFS</small>
-          </div>
-        </section>
-          <div class="container py-5">
-            <div class="row estilos-font-weigth text-center py-5">
-              <div class="col-12">
-                <h3>THE TRINITY</h3>
-                <article>
-                  <h4 class="py-2">Romans 8; Ephesians 1:13-14</h4>
-                  <p>"There is one God, eternally existing in three co-equal Persons, namely the Father, Son, and Holy Spirit."</p>
-                </article>
-              </div>
-              <div class="col-12 pt-5">
-                <h3>JESÚS</h3>
-                <article>
-                  <h4 class="py-2">1 Corinthians 15:1-8</h4>
-                  <p>"God, out of love for His children, sent His son Jesus Christ to die for our sins, and to rise from the dead."</p>
-                </article>
-              </div>
-              <div class="col-12 pt-5">
-                <h3>SALVATION</h3>
-                <article>
-                  <h4 class="py-2">Romans 3:23, 6:23; John 3:16</h4>
-                  <p>"Salvation is a free gift of God. The death of Christ on the cross is the only sufficient payment for our sins. All have sinned, but all can be saved. This salvation is available for any who put their trust in Christ as Savior and follow Him as Lord."</p>
-                  <h4 class="py-2">Romans 10:9; Acts 2:38</h4>
-                  <p>"Those trusting Christ should repent of sin, confess their faith, and be baptized."</p>
-                </article>
-              </div>
-
-              <div class="col-12 pt-5">
-                <h3>THE CHURCH</h3>
-                <article>
-                  <h4 class="py-2">Ephesians 4:1-16</h4>
-                  <p>"The church is the body of Christ on earth, empowered by the Holy Spirit to continue the task of reaching the lost and discipling the saved, helping them become fully devoted followers of Christ."</p>
-                </article>
-              </div>
-              <div class="col-12 pt-5">
-                <h3>ETERNAL LIFE OR SEPARATION</h3>
-                <article>
-                  <h4 class="py-2">John 3:16; John 14:1-3; Revelation 20:10,15</h4>
-                  <p>"When we die, we will either be separated from God by sin or united with Him eternally through faith in Jesus Christ as our Lord and Savior."</p>
-                  
-                </article>
-              </div>
-              <div class="col-12 pt-5">
-                <h3>THE BIBLE</h3>
-                <article>
-                  <h4 class="py-2">2 Timothy 3:16</h4>
-                  <p>"The Bible is the inspired word of God and is the final authority in life and doctrine."</p>
-                  
-                </article>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card estilo-card-border">
+              <img
+                src="img/img2-staff.jpg"
+                class="card-img-top rounded-circle"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3>Timothy Jang</h3>
+                <p class="card-text">Pastor</p>
               </div>
             </div>
           </div>
-        <!-- / -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card estilo-card-border">
+              <img
+                src="img/img3-staff.jpg"
+                class="card-img-top rounded-circle"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3>Jens Madsen</h3>
+                <p class="card-text">Music/Tech</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card estilo-card-border">
+              <img
+                src="img/img4-staff.jpg"
+                class="card-img-top rounded-circle"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3>John Austin Helm</h3>
+                <p class="card-text">Operations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / -->
 
+      <!-- seccion beliefs -->
+      <section class="seccion-about">
+        <div class="container-grid">
+          <h2 class="text-about text-light">BELIEFS</h2>
+          <small class="text-vision-mision text-light">OUR APPROACH</small>
+        </div>
+      </section>
+      <div class="container py-5">
+        <div class="row estilos-font-weigth text-center py-5">
+          <div class="col-12">
+            <h3>WE SEEK UNITY IN ESSENTIAL BELIEFS</h3>
+            <article>
+              <h4 class="py-2">EPHESIANS 4:2-6</h4>
+              <p>
+                "Be completely humble and gentle; be patient, bearing with one
+                another in love. Make every effort to keep the unity of the
+                Spirit through the bond of peace. There is one body and one
+                Spirit - just as you were called - one hope, one Lord, one
+                faith, one baptism; one God and Father of all, who is over all
+                and through all and in all."
+              </p>
+            </article>
+          </div>
+          <div class="col-12 pt-5">
+            <h3>WE VALUE LIBERTY IN NON-ESSENTIAL BELIEFS</h3>
+            <article>
+              <h4 class="py-2">1 TIMOTHY 1:5</h4>
+              <p>
+                "Accept him whose faith is weak, without passing judgement on
+                disputable matters. Who are you to judge someone else's servant?
+                To his own master he stands or falls. and he will stand, for the
+                Lord is able to make him stand.
+              </p>
+              <p>
+                One man considers one day more sacred than another; another man
+                considers every day alike. Each one should be fully convinced in
+                his own mind. So then, each of us will give an account of
+                himself to God."
+              </p>
+            </article>
+          </div>
+          <div class="col-12 pt-5">
+            <h3>WE PURSUE LOVE IN ALL THINGS</h3>
+            <article>
+              <h4 class="py-2">JOHN 13:34-35</h4>
+              <p>
+                "A new command I give you: Love one another. As I have loved
+                you, so you must love one another. By this all men will know
+                that you are my disciples, if you love one another."
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <!-- / -->
+
+      <!-- seccion beliefs-essential -->
+      <section class="seccion-about">
+        <div class="container-grid">
+          <h2 class="text-about text-light">BELIEFS</h2>
+          <small class="text-vision-mision text-light">ESSENTIAL BELIEFS</small>
+        </div>
+      </section>
+      <div class="container py-5">
+        <div class="row estilos-font-weigth text-center py-5">
+          <div class="col-12">
+            <h3>THE TRINITY</h3>
+            <article>
+              <h4 class="py-2">Romans 8; Ephesians 1:13-14</h4>
+              <p>
+                "There is one God, eternally existing in three co-equal Persons,
+                namely the Father, Son, and Holy Spirit."
+              </p>
+            </article>
+          </div>
+          <div class="col-12 pt-5">
+            <h3>JESÚS</h3>
+            <article>
+              <h4 class="py-2">1 Corinthians 15:1-8</h4>
+              <p>
+                "God, out of love for His children, sent His son Jesus Christ to
+                die for our sins, and to rise from the dead."
+              </p>
+            </article>
+          </div>
+          <div class="col-12 pt-5">
+            <h3>SALVATION</h3>
+            <article>
+              <h4 class="py-2">Romans 3:23, 6:23; John 3:16</h4>
+              <p>
+                "Salvation is a free gift of God. The death of Christ on the
+                cross is the only sufficient payment for our sins. All have
+                sinned, but all can be saved. This salvation is available for
+                any who put their trust in Christ as Savior and follow Him as
+                Lord."
+              </p>
+              <h4 class="py-2">Romans 10:9; Acts 2:38</h4>
+              <p>
+                "Those trusting Christ should repent of sin, confess their
+                faith, and be baptized."
+              </p>
+            </article>
+          </div>
+
+          <div class="col-12 pt-5">
+            <h3>THE CHURCH</h3>
+            <article>
+              <h4 class="py-2">Ephesians 4:1-16</h4>
+              <p>
+                "The church is the body of Christ on earth, empowered by the
+                Holy Spirit to continue the task of reaching the lost and
+                discipling the saved, helping them become fully devoted
+                followers of Christ."
+              </p>
+            </article>
+          </div>
+          <div class="col-12 pt-5">
+            <h3>ETERNAL LIFE OR SEPARATION</h3>
+            <article>
+              <h4 class="py-2">John 3:16; John 14:1-3; Revelation 20:10,15</h4>
+              <p>
+                "When we die, we will either be separated from God by sin or
+                united with Him eternally through faith in Jesus Christ as our
+                Lord and Savior."
+              </p>
+            </article>
+          </div>
+          <div class="col-12 pt-5">
+            <h3>THE BIBLE</h3>
+            <article>
+              <h4 class="py-2">2 Timothy 3:16</h4>
+              <p>
+                "The Bible is the inspired word of God and is the final
+                authority in life and doctrine."
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <!-- / -->
+
+      <!-- seccion dia de culto -->
+      <section class="seccion-about">
+        <div class="container-grid">
+          <h2 class="text-about text-light">SATURDAY</h2>
+          <small class="text-vision-mision text-light">WHAT TO EXPECT</small>
+        </div>
+      </section>
+      <div class="container py-5">
+        <div class="row estilos-font-weigth text-center py-5">
+          <div class="col-12">
+            <article>
+              <h3 class="py-2">SONG</h3>
+              <p>
+                When we gather on Sunday mornings, we join together in song. We
+                sing new songs, old songs, hymns, and choruses that all point to
+                the glory of our living God. Our aim is God-honoring,
+                God-glorifying, God-exalting, gospel-centered worship.
+              </p>
+            </article>
+          </div>
+          <div class="col-12 pt-5">
+            <article>
+              <h3 class="py-2">PRAYER</h3>
+              <p>
+                Prayer is essential to our gatherings. Depending on the season
+                we have Calls to Worship, Prayers of Confession, Prayers of
+                Petition, and more. We also have avenues for you to get
+                individualized prayer from our team.
+              </p>
+            </article>
+          </div>
+          <div class="col-12 pt-5">
+            <article>
+              <h3 class="py-2">WORD</h3>
+              <p>
+                Every Sunday we hear the good news of Jesus proclaimed and
+                applied to everyday life through the Bible. Not only do we
+                regularly walk through books of the Bible verse-by-verse, we
+                occasionally tackle questions and issues facing the lives of
+                those in our church, city, and world. More than anything else,
+                we seek to elevate the hope offered to us in and through Jesus
+                for this life and the life beyond.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-12 pt-5">
+            <article>
+              <h3 class="py-2">TABLE</h3>
+              <p>
+                In every Sunday service we take communion. We participate in
+                this ancient act of eating the bread of Christ’s body, drinking
+                the cup of Christ’s blood, and remembering His death and
+                resurrection until he comes again. We welcome all people to join
+                us for our Sunday morning service, but we request that communion
+                is only taken by those who know Jesus as their Lord and Savior.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <!-- / -->
+
+      <!-- seccion galeria cultos -->
+      <section class="seccion-about">
+        <div class="container-grid">
+          <h2 class="text-about text-light">SATURDAY</h2>
+          <small class="text-vision-mision text-light">SERMONS</small>
+        </div>
+      </section>
+      <div class="container py-5">
+        <div class="row estilos-font-weigth text-center py-5">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="img/img-galeria-cultos.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <span class="card-title fs-5">Train the Tongue</span>
+                <p class="card-text">
+                  Jul 10, 22
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="img/img-galeria-cultos.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <span class="card-title fs-5">Is Your Faith Bigger Than You?</span>
+                <p class="card-text">
+                  Jul 3, 22
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="img/img-galeria-cultos.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <span class="card-title fs-5">Favoritism</span>
+                <p class="card-text">Jun 26, 22</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 my-4">
+            <a href="#" class="btn btn-dark p-3">ALL SERMONS</a>
+          </div>
+        </div>
+      </div>
+      <!-- / -->
     </main>
     <footer class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-3 mb-2">
-                    <figure class="figure--logo m-auto">
-                        <img class="img-fluid" src="img/logo-iadsd.png" alt="logo adventista">
-                    </figure>
-                    <div class="container-iconos--redes text-center fs-4 mt-3">
-                        <i class="bi bi-facebook mx-2"></i>
-                        <i class="bi bi-whatsapp mx-2"></i>
-                        <i class="bi bi-youtube mx-2"></i>
-                        <i class="bi bi-twitter mx-2"></i>
-                    </div>
-                </div>
-                <div class="col-12 text-center col-md-4 text-md-start col-lg-3 my-4">
-                    <h5>John Adams Middle School</h5>
-                    <span>2425 16th St.</span>
-                    <br>
-                    <span>Santa Monica, CA</span>
-                    <br>
-                    <span>90405 </span>
-                    <br>
-                    <span>View Map</span>
-                </div>
-                <div class="col-12 text-center col-md-4 col-lg-3 my-4">
-                    <h5>Office Hours</h5>
-                    <p>Sundays 10AM</p>
-                    
-                </div>
-                <div class="col-12 text-center col-md-4 col-lg-3 my-4">
-                    <h5>Contact</h5>
-                    <p>Phone:
-                        310-829-9344</p>
-                    <p>Email:
-                        info@risenchurch.c</p>
-                    
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-3 mb-2">
+            <figure class="figure--logo m-auto">
+              <img
+                class="img-fluid"
+                src="img/logo-iadsd.png"
+                alt="logo adventista"
+              />
+            </figure>
+            <div class="container-iconos--redes text-center fs-4 mt-3">
+              <i class="bi bi-facebook mx-2"></i>
+              <i class="bi bi-whatsapp mx-2"></i>
+              <i class="bi bi-youtube mx-2"></i>
+              <i class="bi bi-twitter mx-2"></i>
             </div>
-
+          </div>
+          <div class="col-12 text-center col-md-4 text-md-start col-lg-3 my-4">
+            <h5>John Adams Middle School</h5>
+            <span>2425 16th St.</span>
+            <br />
+            <span>Santa Monica, CA</span>
+            <br />
+            <span>90405 </span>
+            <br />
+            <span>View Map</span>
+          </div>
+          <div class="col-12 text-center col-md-4 col-lg-3 my-4">
+            <h5>Office Hours</h5>
+            <p>Sundays 10AM</p>
+          </div>
+          <div class="col-12 text-center col-md-4 col-lg-3 my-4">
+            <h5>Contact</h5>
+            <p>Phone: 310-829-9344</p>
+            <p>Email: info@risenchurch.c</p>
+          </div>
         </div>
-        
+      </div>
     </footer>
     <div class="footer-info p-2 text-center text-light">
-        <p>© 2022 PIME, INC.. All Rights Reserved. | Login</p>
+      <p>© 2022 PIME, INC.. All Rights Reserved. | Login</p>
     </div>
-    
-</body>
+  </body>
 </html>
