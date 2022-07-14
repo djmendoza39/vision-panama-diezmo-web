@@ -93,6 +93,10 @@ h1.estilo-titulo {
 }
 /* / */
 
+.estilo-card-border{
+    border:none !important;
+}
+
 
 /* estilos footer */
 footer{
