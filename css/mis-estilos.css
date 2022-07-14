@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+:root{
+    --color-primary: blue;
+    --color-secondary: blue;
+    --color-fonts: blue;
+    --color-footer: blue;
+
+}
+/* estilos generales */
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* estilos header */
+header{
+    background-image: url(../img/img-slide.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+header .container-logo-menu{
+    background-color: #01150bb0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+h1.estilo-titulo {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+/* seccion stream */
+
+.video--estilos{
+    width: 100%;
+    height: 500px;
+}
+/* / */
+
+/* seccion estilos about */
+.seccion-about{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/img-about1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.container-grid{
+    background-color: rgba(2, 32, 12, 0.4);
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+
+.text-about{
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.text-vision-mision{
+    font-size: 1.6rem;
+}
+/* / */
+
+
+/* estilos footer */
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: auto;
+}
+
+figure.figure--logo{
+    width: 8rem;
+    height: 10rem;
+}
+
+.footer-info{
+    background-color: #D19D00;
+    height: inherit;
+}
+/* / */
+

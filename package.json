@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-adventista",
+  "version": "1.0.0",
+  "description": "sitio web para diezmos y ofrendas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darwin Junior <djmendoza39@gmail.com>",
+  "license": "ISC"
+}
